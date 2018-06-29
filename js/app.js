@@ -62,6 +62,7 @@ function gameRestart() {
   shuffleCards();
   flipDeck();
   match = 0;
+  flippedCards = [];
 }
 
 // replay game
