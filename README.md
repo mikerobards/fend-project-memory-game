@@ -1,20 +1,16 @@
-# Memory Game Project
+# Mike's Matching Game
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+Welcome to Mike's Matching Game!
+This is a project for Udacity's Front-End Web Developer Nanodegree.
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The object of this game is to match cards. You flip over the cards, two at a time, by clicking on them. If they match, they will stay flipped over. If they do not match, they will flip to the back side. Once you have matched all the cards, you win!
 
-To get started, open `js/app.js` and start building out the app's functionality
+You will be graded on the number of moves it takes for you to win the game, as well as a clock that times your game.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+Clicking the reset icon resets the game at any point.
 
-## Contributing
+## License
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+MIT License
