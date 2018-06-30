@@ -38,8 +38,8 @@ deck.addEventListener('click', e => {
     flipCard(clicked);
     addFlippedCard(clicked);
     if (flippedCards.length === 2) {
-      checkMatch(clicked);
       countTurns();
+      checkMatch(clicked);
       loseStars();
     }
   }
